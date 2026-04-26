@@ -65,10 +65,10 @@ export default function PortfolioPage() {
                 Our work
               </p>
               <h1 className="text-5xl sm:text-6xl font-bold text-slate-900 dark:text-white tracking-tight leading-tight mb-6 max-w-2xl">
-                Projects and case studies.
+                Selected work.
               </h1>
               <p className="text-slate-500 dark:text-slate-400 text-xl max-w-xl leading-relaxed">
-                We&apos;re a new studio. Our first detailed case studies are currently being prepared. In the meantime, see what we work on below — or book a call and we&apos;ll share examples directly.
+                We&apos;re a young studio. Detailed case studies are in preparation — book a call and we&apos;ll share examples and process directly.
               </p>
             </div>
             <Link
@@ -130,15 +130,17 @@ export default function PortfolioPage() {
       {/* Note */}
       <section className="py-16 bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-2xl">
-            <p className="text-slate-400 dark:text-slate-500 text-sm leading-relaxed">
-              Full case studies including process, decisions, and results will be published as projects wrap up.
-              If you&apos;d like to speak directly about our approach to a specific type of project,{' '}
-              <Link href="/contact" className="text-blue-600 dark:text-blue-400 hover:underline underline-offset-2">
-                get in touch
-              </Link>
-              .
+          <div className="flex flex-col sm:flex-row sm:items-center gap-6 max-w-3xl">
+            <p className="text-slate-400 dark:text-slate-500 text-sm leading-relaxed flex-1">
+              Full case studies — process, decisions, and results — will be published as projects wrap up.
             </p>
+            <Link
+              href="/contact"
+              className="shrink-0 inline-flex items-center gap-1.5 text-sm text-slate-600 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white border border-slate-300 dark:border-slate-700 hover:border-slate-400 dark:hover:border-slate-500 px-4 py-2.5 rounded-md transition-all duration-200"
+            >
+              Speak to us directly
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
           </div>
         </div>
       </section>

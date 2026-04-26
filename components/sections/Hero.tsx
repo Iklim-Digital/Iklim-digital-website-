@@ -15,19 +15,18 @@ const attributes = [
   { value: 'Weekly', label: 'Progress updates' },
 ]
 
-// 3 curated images that feel like real studio work
 const previewImages = [
   {
-    src: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?w=600&auto=format&fit=crop&q=80',
-    alt: 'UI design on screen',
+    src: 'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=900&auto=format&fit=crop&q=80',
+    alt: 'Designer at desk with warm lamp light',
   },
   {
-    src: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&auto=format&fit=crop&q=80',
-    alt: 'Code on dark screen',
+    src: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=80',
+    alt: 'Dark monitors glowing in a dim studio',
   },
   {
-    src: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&auto=format&fit=crop&q=80',
-    alt: 'Analytics dashboard',
+    src: 'https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=600&auto=format&fit=crop&q=80',
+    alt: 'Dramatic workspace with evening light',
   },
 ]
 

@@ -17,15 +17,12 @@ export default function CTASection() {
         >
           {/* Left: text */}
           <div>
-            <p className="text-xs font-semibold tracking-widest uppercase text-slate-400 dark:text-slate-500 mb-5">
-              Ready to start?
-            </p>
             <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 dark:text-white tracking-tight leading-tight mb-5">
-              Let&apos;s talk about<br />your next project.
+              Have something<br />to build? Let&apos;s talk.
             </h2>
             <p className="text-slate-500 dark:text-slate-400 text-lg leading-relaxed max-w-lg">
-              We take on a small number of projects at a time so we can do each one well.
-              If you have something in mind, get in touch — we reply within one business day.
+              We take on a small number of projects at a time so each one gets our full attention.
+              Get in touch — we reply within one business day.
             </p>
           </div>
 

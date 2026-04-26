@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Linkedin, Instagram, Mail, MapPin } from 'lucide-react'
+import { Instagram, Mail, MapPin } from 'lucide-react'
 
 const footerLinks = {
   Studio: [
@@ -12,6 +12,7 @@ const footerLinks = {
   Services: [
     { href: '/services#web-design', label: 'Web Design' },
     { href: '/services#web-development', label: 'Web Development' },
+    { href: '/services#digital-strategy', label: 'Digital Strategy' },
     { href: '/services#brand-identity', label: 'Brand Identity' },
     { href: '/services#seo-growth', label: 'SEO & Growth' },
     { href: '/services#mobile-apps', label: 'Mobile Apps' },
@@ -24,8 +25,7 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { href: '#', icon: Linkedin, label: 'LinkedIn' },
-  { href: '#', icon: Instagram, label: 'Instagram' },
+  { href: 'https://www.instagram.com/iklim.digital/', icon: Instagram, label: 'Instagram' },
 ]
 
 export default function Footer() {
@@ -104,12 +104,9 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="py-6 border-t border-slate-200 dark:border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-3">
+        <div className="py-6 border-t border-slate-200 dark:border-slate-800 flex items-center justify-center">
           <p className="text-slate-400 dark:text-slate-600 text-xs">
             © {new Date().getFullYear()} Iklim Digital. All rights reserved.
-          </p>
-          <p className="text-slate-400 dark:text-slate-600 text-xs">
-            Designed and built in Beirut.
           </p>
         </div>
       </div>

@@ -66,10 +66,10 @@ export default function ServicesSection() {
         <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6 mb-16">
           <div>
             <p className="text-xs font-semibold tracking-widest uppercase text-slate-400 dark:text-slate-500 mb-3">
-              What we do
+              Services
             </p>
             <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white tracking-tight leading-tight">
-              Six ways we can<br className="hidden sm:block" /> help your brand.
+              Full-service digital,<br className="hidden sm:block" /> without the overhead.
             </h2>
           </div>
           <Link

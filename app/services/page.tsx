@@ -160,7 +160,7 @@ export default function ServicesPage() {
             Everything your brand needs to grow online.
           </h1>
           <p className="text-slate-500 dark:text-slate-400 text-xl max-w-xl leading-relaxed">
-            A focused set of services delivered by a team that cares about doing them well.
+            Six services. One studio. No subcontracting, no surprises.
           </p>
         </div>
       </section>
@@ -178,7 +178,7 @@ export default function ServicesPage() {
                 <div
                   id={service.id}
                   key={service.id}
-                  className="scroll-mt-28 py-20 sm:py-24"
+                  className="scroll-mt-28 py-14 sm:py-20"
                 >
                   <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start ${isReversed ? 'lg:[&>*:first-child]:order-2' : ''}`}>
                     {/* Text */}

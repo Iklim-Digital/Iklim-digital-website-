@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { Mail, MapPin, Clock, Phone, CheckCircle } from 'lucide-react'
+import { Mail, MapPin, Clock, Phone, CheckCircle, ChevronDown } from 'lucide-react'
 
 const contactInfo = [
   {
@@ -215,22 +215,25 @@ export default function ContactSection() {
                   <label htmlFor="service" className={labelClass}>
                     What are you looking for?
                   </label>
-                  <select
-                    id="service"
-                    name="service"
-                    value={formData.service}
-                    onChange={handleChange}
-                    className={inputClass}
-                  >
-                    <option value="">Choose a service...</option>
-                    <option value="web-design">Web Design</option>
-                    <option value="web-development">Web Development</option>
-                    <option value="digital-strategy">Digital Strategy</option>
-                    <option value="brand-identity">Brand Identity</option>
-                    <option value="seo">SEO & Growth</option>
-                    <option value="mobile-app">Mobile App</option>
-                    <option value="other">Not sure yet</option>
-                  </select>
+                  <div className="relative">
+                    <select
+                      id="service"
+                      name="service"
+                      value={formData.service}
+                      onChange={handleChange}
+                      className={`${inputClass} appearance-none pr-10`}
+                    >
+                      <option value="">Choose a service...</option>
+                      <option value="web-design">Web Design</option>
+                      <option value="web-development">Web Development</option>
+                      <option value="digital-strategy">Digital Strategy</option>
+                      <option value="brand-identity">Brand Identity</option>
+                      <option value="seo">SEO & Growth</option>
+                      <option value="mobile-app">Mobile App</option>
+                      <option value="other">Not sure yet</option>
+                    </select>
+                    <ChevronDown className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 pointer-events-none" />
+                  </div>
                 </div>
 
                 <div>
@@ -256,9 +259,14 @@ export default function ContactSection() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full inline-flex items-center justify-center px-6 py-4 bg-slate-900 dark:bg-white hover:bg-slate-700 dark:hover:bg-slate-100 disabled:opacity-50 disabled:cursor-not-allowed text-white dark:text-slate-900 font-medium text-sm rounded-md transition-all duration-200"
+                  className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-slate-900 dark:bg-white hover:bg-slate-700 dark:hover:bg-slate-100 disabled:opacity-40 disabled:cursor-not-allowed text-white dark:text-slate-900 font-medium text-sm rounded-md tracking-wide transition-all duration-200"
                 >
-                  {loading ? 'Sending…' : 'Send message'}
+                  {loading ? (
+                    <>
+                      <span className="w-3.5 h-3.5 rounded-full border-2 border-white/30 dark:border-slate-900/30 border-t-white dark:border-t-slate-900 animate-spin" />
+                      Sending…
+                    </>
+                  ) : 'Send message'}
                 </button>
               </form>
             )}

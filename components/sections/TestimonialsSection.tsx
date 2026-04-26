@@ -46,10 +46,10 @@ export default function TestimonialsSection() {
         {/* Header */}
         <div className="mb-16 max-w-2xl">
           <p className="text-xs font-semibold tracking-widest uppercase text-slate-400 dark:text-slate-500 mb-4">
-            Why Iklim Digital
+            Working with us
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white tracking-tight leading-tight">
-            A studio built around<br className="hidden sm:block" /> how good work happens.
+            Direct. Focused.<br className="hidden sm:block" /> No layers between you and the work.
           </h2>
         </div>
 
@@ -134,7 +134,7 @@ export default function TestimonialsSection() {
         >
           <div className="flex-1">
             <p className="text-white text-sm leading-relaxed max-w-2xl">
-              Iklim Digital is a founder-led studio. When you work with us, you get direct communication, fast iteration, and full ownership from strategy to delivery — no layers, no surprises.
+              You talk to the people building your product. Every call, every decision, every update — the same two people, start to finish. That&apos;s the whole model.
             </p>
           </div>
           <Link

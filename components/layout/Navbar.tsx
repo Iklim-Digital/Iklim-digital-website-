@@ -116,7 +116,7 @@ export default function Navbar() {
                   className={clsx(
                     'px-4 py-3 rounded-md text-sm transition-colors',
                     pathname === link.href
-                      ? 'text-slate-900 dark:text-white font-medium bg-slate-100 dark:bg-white/8'
+                      ? 'text-slate-900 dark:text-white font-medium bg-slate-100 dark:bg-white/10'
                       : 'text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white hover:bg-slate-50 dark:hover:bg-white/5'
                   )}
                 >

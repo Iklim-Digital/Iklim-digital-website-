@@ -60,7 +60,7 @@ export default function AboutPage() {
       </section>
 
       {/* Studio facts bar */}
-      <section className="py-10 bg-slate-50 dark:bg-slate-900/40 border-y border-slate-200 dark:border-slate-800/60">
+      <section className="py-12 bg-slate-50 dark:bg-slate-900/40 border-y border-slate-200 dark:border-slate-800/60">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap gap-x-12 gap-y-4">
             {[
@@ -102,7 +102,7 @@ export default function AboutPage() {
                 Our story
               </p>
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white tracking-tight leading-tight mb-8">
-                Built around what actually matters in a client relationship.
+                Built differently, on purpose.
               </h2>
               <div className="space-y-5 text-slate-500 dark:text-slate-400 leading-relaxed text-[15px]">
                 <p>
@@ -146,7 +146,7 @@ export default function AboutPage() {
                 How we work
               </p>
               <h2 className="text-3xl sm:text-4xl font-bold text-slate-900 dark:text-white tracking-tight leading-tight">
-                Direct, focused, and built for quality.
+                You get the people<br className="hidden sm:block" /> who actually build it.
               </h2>
             </div>
             <div className="space-y-8">
